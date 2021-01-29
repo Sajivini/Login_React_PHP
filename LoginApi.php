@@ -20,4 +20,7 @@ if(Mysqli_num_rows($qry)>0){
 
 header('Content-Type: application/json; charset=UTF-8');
 echo json_encode($response);
+
+//Its login API connecting methodd
+
 ?>
